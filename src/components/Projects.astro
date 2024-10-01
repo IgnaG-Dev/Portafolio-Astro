@@ -8,17 +8,13 @@ import React from "./icons/React.astro";
 import MySql from "./icons/MySql.astro";
 import Sass from "./icons/Sass.astro";
 import Php from "./icons/Php.astro";
+import Render from "./icons/Render.astro";
 
 const TAGS = {
   NEXT: {
     name: "Next.js",
     class: "bg-black text-white",
     icon: NextJS,
-  },
-  TAILWIND: {
-    name: "Tailwind CSS",
-    class: "bg-[#003159] text-white",
-    icon: Tailwind,
   },
   REACT: {
     name: "React",
@@ -30,26 +26,21 @@ const TAGS = {
     class: "bg-gray-300 text-black",
     icon: MySql,
   },
-  SASS: {
-    name: "SASS",
-    class: "bg-[#003159] text-white",
-    icon: Sass,
-  },
-  PHP: {
-    name: "PHP",
+  RENDER: {
+    name: "Render",
     class: "bg-gray-300 text-black",
-    icon: Php,
+    icon: Render,
   },
 };
 const PROJECTS = [
   {
-    title: "DevWebCamp - Sitio de Conferencias con Pagos en PayPal",
+    title: "Viajate - Plataforma de Movilidad Compartida",
     description:
-      "Sitio web para conferencias con funcionalidades avanzadas de administración y pagos a través de PayPal.",
-    link: "https://pelgoho.nyc.dom.my.id/",
-    github: "https://github.com/IgnaG-Dev/DevWebCamp-PHP-MVC",
-    image: "/projects/devwebcamp.webp",
-    tags: [TAGS.PHP, TAGS.SQL],
+      "Sitio web que conecta personas para compartir viajes diarios y de larga distancia, reduciendo la huella de carbono y fomentando la socialización.",
+    link: "https://www.viajate.com.ar/",
+    github: null,
+    image: "/projects/viajate.webp",
+    tags: [TAGS.REACT, TAGS.RENDER],
   },
   {
     title: "GuitarLa - Carrito de Compras con LocalStorage",
